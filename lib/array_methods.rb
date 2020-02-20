@@ -12,10 +12,12 @@ def find_element_index(array, value_to_find)
 end
   
 def find_max_value(array)
+  integer = 0
   array.length.times do |elements|
-   array[elements] == highest_number
-    return highest_number
+   if array[elements] > integer
+    integer = array[elements] 
 end
+return integer
 end
 
 def find_min_value(array)
