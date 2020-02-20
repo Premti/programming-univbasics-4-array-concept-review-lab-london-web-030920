@@ -12,7 +12,7 @@ def find_element_index(array, value_to_find)
 end
   
 def find_max_value(array)
-  array.length.times |element|
+  array.length.times do |element|
    array[element] == highest_number
     return highest_number
 end
