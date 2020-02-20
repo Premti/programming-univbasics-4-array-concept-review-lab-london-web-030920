@@ -13,7 +13,9 @@ end
   
 def find_max_value(array)
   array.length.times |element|
-  
+  if array[element] == highest_number
+    return highest_number
+  end
 end
 
 def find_min_value(array)
